@@ -64,5 +64,47 @@
             android:textSize="32sp"
             />
     </LinearLayout>
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/minegrid"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+        app:rowCount="12"
+        app:columnCount="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </androidx.gridlayout.widget.GridLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="510dp">
+
+        <TextView
+            android:id="@+id/textViewPick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="175dp"
+
+            android:text="@string/pick"
+            android:textAlignment="center"
+            android:textSize="32sp"
+
+            android:width="64dp"
+            android:height="64dp"
+            android:onClick="switchMode"
+            android:clickable="true"
+
+            android:focusable="true" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

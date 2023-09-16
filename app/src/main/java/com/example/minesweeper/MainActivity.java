@@ -1,6 +1,7 @@
 package com.example.minesweeper;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.gridlayout.widget.GridLayout;
 
 import android.os.Bundle;
 

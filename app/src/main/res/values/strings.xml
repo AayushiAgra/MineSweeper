@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">MineSweeper</string>
+    <string name="app_name">CS 310 \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t\t Aayushi Agrawal</string>
+    <string name="flag">\uD83D\uDEA9</string>
+    <string name="flagnum">4</string>
+    <string name="clock">\uD83D\uDD53</string>
+    <string name="pick">\u26CF</string>
+    <string name="mine">\uD83D\uDCA3</string>
 </resources>

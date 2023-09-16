@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultActivity"
+    android:layout_gravity="center">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/seconds"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="32sp"
+            android:text="filler"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/result"
+            android:textSize="32sp"
+            android:text="filler"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:layout_marginLeft="150dp"/>
+        <TextView
+            android:id="@+id/message"
+
+            android:text="filler"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="32sp"
+            android:layout_marginLeft="140dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="PLAY AGAIN"
+        android:onClick="backToMain"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="@id/linear"
+        app:layout_constraintStart_toStartOf="@id/linear"
+        app:layout_constraintTop_toTopOf="@id/linear"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

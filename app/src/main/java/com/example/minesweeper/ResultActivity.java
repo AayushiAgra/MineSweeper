@@ -14,7 +14,7 @@ public class ResultActivity extends AppCompatActivity{
         Intent intent = getIntent();
         String time = intent.getStringExtra("time");
         TextView textView = (TextView) findViewById(R.id.seconds);
-        textView.setText("Used " + time + " seconds");
+        textView.setText("Used " + time + " seconds.");
         textView.setTextColor(Color.GRAY);
         String result = intent.getStringExtra("result");
         textView = (TextView) findViewById(R.id.result);
